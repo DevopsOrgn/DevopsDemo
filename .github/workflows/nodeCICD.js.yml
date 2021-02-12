@@ -28,5 +28,5 @@ jobs:
     #- run: npm ci
     - run: npm install
     - run: npm build
-    - run: pm2 start index.js
+    - run: pm2 restart start index.js
     #- run: npm test
